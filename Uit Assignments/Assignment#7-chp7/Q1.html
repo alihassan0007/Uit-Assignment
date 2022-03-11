@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+</head>
+<body>
+    <h1>My form:</h1>
+    <form action="http://www.ali.com/login.php">
+        <p align="center">Username:
+        <input type="text" name="username" size="15"
+        maxlength="30" />
+        </p>
+        <p align="center">Password:
+        <input type="password" name="password" size="15"
+        maxlength="30" />
+        </p>
+        <p align="center"><label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" />
+        <input type="submit" value="Submit" />
+        </p>
+        <p align="center"> Web URL:
+<input type="url" name="website" /></p>
+        <p align="center"><label for="address">Address:</label>
+        <input type="text" name="address" size="20">
+        </p>
+        <p align="center">
+            <label for="city">
+            City:
+            </label>
+            <select name="referrer" id="city">
+            <option value="karachi">Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="other">Other</option>
+            </select>
+            </p>
+            <p align="center"><label for="state">State:</label>
+                <input type="text" name="state" size="10">
+                </p>    
+            <p align="center"><label for="zip">Zip:</label>
+                    <input type="text" name="zip" size="20">
+                    </p>
+                    <p align="center">
+                        <label for="magzine">
+                        Magzine:
+                        </label>
+                        <select name="referrer" id="magzine">
+                        <option value="newsweek">Newsweek</option>
+                        <option value="time">Time</option>
+                        <option value="fortune">Fortune</option>
+                        <option value="tv guide">TV Guide</option>
+                        <option value="other">Other</option>
+                        </select>
+                        </p>
+
+                        <fieldset align="left">
+                            <legend>
+                            Your Details:
+                            </legend>
+                            <p align="center"><label>
+                            Email:
+                            <input type="email" name="email" size="30" maxlength="100">
+                            </label>
+                            <br /></p>
+
+                            <p align="center"> <label>
+                                Mobile:
+                                <input type="text" name="mobile" size="30" maxlength="100">
+                                </label>
+                                <br /></p>
+
+                                <p align="center"> <label>
+                                    Telephone:
+                                    <input type="text" name="tele" size="30" maxlength="100">
+                                    </label>
+                                    <br /></p>
+                            </fieldset>
+
+                            <p align="center">
+                                <label for="comments">
+                               Additional Comments:
+                                </label>
+                                <br />
+                                <textarea rows="4" cols="40" id="comments">
+                                </textarea>
+                                </p>
+
+                                <p align="center"><label for="img">Select image:</label>
+                                <input type="file" id="img" name="img" accept="image/*">
+                                <input type="submit">
+                                </p>
+
+                                <p align="center"><label>Email: <input type="text" name="email" /></label>
+                                <br/>
+                                Subscription:
+                                <input id="1yr" type="radio" name="sub"
+                                value="1">
+                                <label for="1yr">1 Years</label>
+                                <input id="2yr" type="radio" name="sub"
+                                value="2">
+                                <label for="2yr">2 Years</label>
+                            </p>
+                            <p align="center"><input type="checkbox" id="sub1" name="sub1" value="sub">
+                                <label for="sub1"> Yes! put me on the List!</label><br>
+                            <input type="submit" value="Subscribe" >
+                        </p>
+    </form>
+</body>
+</html>
